@@ -1,8 +1,122 @@
 /*
 Nome: 
 Data: 
+
+cores:
+Borda azul: #33A8DB
+
+gradiente:
+#3BA1CD
+#1572B7
 */
 
-html, body {
-    background-color: aqua;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
+html, body {background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
 }
+
+.gradiente-linear {
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 47px;
+    color: #31A8DD;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #31A8DD;
+}
+
+h3 {
+    font-size: 48px;
+    font-weight: 400;
+    color: #31A8DD;
+}
+
+p {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+
+header {
+    background-color: lightblue;
+    height: 605px;
+    border-bottom: 1px solid #33A8DB;
+    color: white;
+    background-image: url(../images/banner.png);
+    text-align: center;
+}
+
+
+header .banner-content {
+    width: 510px;
+    margin: 56px auto 0 auto;
+}
+
+header .banner-content .logo {
+    width: 268px;
+    height: 268px;
+    border-radius: 268px;
+    display: flex;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.20);
+}
+
+header .banner-content .logo img {
+    object-fit: contain;
+}
+
+header .banner-content h1 {
+    margin: 16px auto;
+}
+
+header .banner-content p {
+    width: 510px;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+
+
+header button {
+    background: rgba(0, 0, 0, 0);
+    border: 3px solid;
+    border-image-source: linear-gradient(#3BA1CD, #1572B7);
+    border-image-slice: 10;
+    padding: 19px 91px;
+    color: #31A8DD;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 3.36px;
+}
+
+
+main {
+    background-color: green;
+}
+
+footer {
+    background-color: yellow;
+
+}
+
+
