@@ -121,14 +121,13 @@ header button {
 
 main {
     background-color: black;
-    padding: 120px 0;
+    padding: 120px 0 0;
 }
 
 main section.course-content {
     width: 792px;
     margin: 0 auto 120px auto;
 }
-
 
 main .course-content h2 {
     text-align: center;
@@ -158,9 +157,6 @@ main .modules-list div.module span {
     color: #33A8DB;
 }
 
-/*************************************************************************/
-
-
 main #transform-world {
     height: 350px;
     position: relative;
@@ -168,6 +164,8 @@ main #transform-world {
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
+    border-top: 1px solid #33A8DB;
+    border-bottom: 1px solid #33A8DB;
 }
 
 main #transform-world p {
@@ -181,7 +179,29 @@ main #transform-world p {
     left: 195px;
 }
 
+main #professional-challenges {
+    margin: 80px auto 91px;
+    width: 800px;
+}
 
+main #professional-challenges h2 {
+    line-height: 37.6px;
+    text-align: center;
+    letter-spacing: 6px;
+    margin-bottom: 32px;
+}
+
+main #professional-challenges img {
+    width: 660px;
+    display: block;
+    margin: 0 auto 40px;
+}
+
+main #professional-challenges p {
+    color: white;
+    text-align: center;
+    line-height: normal;
+}
 
 
 footer {
