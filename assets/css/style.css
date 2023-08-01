@@ -12,12 +12,16 @@ gradiente:
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
 
-html, body {background-color: black;
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
+}
+
+body {
+    background-color: black;
 }
 
 .gradiente-linear {
@@ -52,29 +56,30 @@ p {
     font-weight: 400;
 }
 
+/*********************************************
+        ESTILO DO TOPO
+**********************************************/
 
 header {
-    background-color: lightblue;
     height: 605px;
+    padding-top: 56px;
     border-bottom: 1px solid #33A8DB;
-    color: white;
     background-image: url(../images/banner.png);
     text-align: center;
 }
 
-
 header .banner-content {
     width: 510px;
-    margin: 56px auto 0 auto;
+    margin: 0 auto;
 }
 
 header .banner-content .logo {
     width: 268px;
     height: 268px;
     border-radius: 268px;
-    display: flex;
     margin: 0 auto;
     background: rgba(0, 0, 0, 0.20);
+    display: flex;
 }
 
 header .banner-content .logo img {
@@ -83,18 +88,19 @@ header .banner-content .logo img {
 
 header .banner-content h1 {
     margin: 16px auto;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 header .banner-content p {
-    width: 510px;
+    width: 520px;
     font-size: 20px;
-    line-height: 23px;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
     text-align: center;
+    color: white;
 }
-
-
-
 
 header button {
     background: rgba(0, 0, 0, 0);
@@ -110,9 +116,22 @@ header button {
 }
 
 
+/*********************************************
+        ESTILO DO MAIN
+**********************************************/
+
+
 main {
     background-color: green;
 }
+
+
+
+
+
+
+
+
 
 footer {
     background-color: yellow;
