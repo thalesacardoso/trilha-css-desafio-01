@@ -51,8 +51,7 @@ h3 {
 }
 
 p {
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 16px;
     font-weight: 400;
 }
 
@@ -121,7 +120,7 @@ header button {
 **********************************************/
 
 main {
-    background-color: green;
+    background-color: black;
     padding: 120px 0;
 }
 
@@ -159,8 +158,28 @@ main .modules-list div.module span {
     color: #33A8DB;
 }
 
+/*************************************************************************/
 
 
+main #transform-world {
+    height: 350px;
+    position: relative;
+    background-image: url(../images/woman-code.png);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main #transform-world p {
+    width: 245px;
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+    text-shadow: 3px 2px 0 #33A8DB;
+    position: absolute;
+    top: 100px;
+    left: 195px;
+}
 
 
 
