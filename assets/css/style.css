@@ -122,9 +122,42 @@ header button {
 
 main {
     background-color: green;
+    padding: 120px 0;
+}
+
+main section.course-content {
+    width: 792px;
+    margin: 0 auto 120px auto;
 }
 
 
+main .course-content h2 {
+    text-align: center;
+    letter-spacing: 6px;
+}
+
+main .course-content p {
+    text-align: center;
+    font-size: 16px;
+    margin: 24px 0;
+    color: white;
+}
+
+main .modules-list .module {
+    width: 535px;
+    padding: 16px 30px;
+    margin: 0 auto 24px auto;
+    border-radius: 57px;
+    border: 1px solid #33A8DB;
+    background: #252525;
+    box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.40) inset;
+    text-align: center;
+    color: white;
+}
+
+main .modules-list div.module span {
+    color: #33A8DB;
+}
 
 
 
