@@ -1,13 +1,13 @@
 /*
-Nome: 
-Data: 
+Nome: Thales de Azevedo Cardoso
+Data: 01/08/2023
 
 cores:
-Borda azul: #33A8DB
+    Azul: #33A8DB
 
 gradiente:
-#3BA1CD
-#1572B7
+    #3BA1CD
+    #1572B7
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
@@ -24,13 +24,6 @@ body {
     background-color: black;
 }
 
-.gradiente-linear {
-    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 h1 {
     font-size: 40px;
     font-weight: 900;
@@ -41,12 +34,6 @@ h1 {
 h2 {
     font-size: 32px;
     font-weight: 700;
-    color: #31A8DD;
-}
-
-h3 {
-    font-size: 48px;
-    font-weight: 400;
     color: #31A8DD;
 }
 
@@ -112,6 +99,7 @@ header button {
     font-size: 16px;
     font-weight: 900;
     letter-spacing: 3.36px;
+    cursor: pointer;
 }
 
 
@@ -207,10 +195,29 @@ main #professional-challenges p {
         ESTILO DO FOOTER
 **********************************************/
 
-
 footer {
-    background-color: yellow;
-
+    height: 170px;
+    padding-top: 60px;
+    border-top: 1px solid #33A8DB;
 }
 
+footer img {
+    width: 310px;
+    display: block;
+    margin: 0 auto;
+}
 
+footer p {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+footer p a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #33A8DB;
+}
